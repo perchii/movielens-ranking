@@ -1,0 +1,9 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+ml-1m/
+external_data/
+movies_with_overviews.csv
+movies_overview_issues.csv
+catboost_info/
