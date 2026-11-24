@@ -1,0 +1,23 @@
+# CPython 3.11, 64-bit. Direct runtime dependencies for the published notebook.
+numpy==1.26.2
+pandas==2.3.2
+scipy==1.15.2
+scikit-learn==1.9.0
+matplotlib==3.8.2
+
+# Neural models, text embeddings and reranking.
+torch==2.14.1
+sentence-transformers==6.1.0
+transformers==5.19.0
+huggingface-hub==1.33.0
+# HTTPX proxy support when downloading MPNet behind a SOCKS proxy.
+socksio==1.0.0
+catboost==1.2.10
+
+# Rebuild the catalogue with English overviews from source files.
+langdetect==1.0.9
+
+# Interactive notebook and its Python kernel.
+ipython==9.1.0
+ipykernel==6.29.5
+jupyterlab>=4,<5
